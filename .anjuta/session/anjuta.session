@@ -1,0 +1,19 @@
+[Anjuta]
+Geometry=1918x1014+0+27
+
+[File Loader]
+Files=../../src/main.c#20
+
+[Document Manager]
+bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
+
+[Project Manager]
+Shortcut=printer-hack//src//printer_hack
+Expand=printer_hack%%%printer-hack
+
+[Execution]
+Run in terminal=2
+Working directories=../../../printer-hack
+
+[Debugger]
+Stop at beginning=2
