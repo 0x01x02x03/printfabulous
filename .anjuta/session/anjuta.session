@@ -2,18 +2,28 @@
 Geometry=1918x1014+0+27
 
 [File Loader]
-Files=../../src/main.c#20
+Files=../../src/main.cc#53
 
 [Document Manager]
 bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
 
 [Project Manager]
-Shortcut=printer-hack//src//printer_hack
-Expand=printer_hack%%%printer-hack
+Shortcut=Printer-Message-Editor//src//printer_message_editor
+Expand=printer_message_editor
 
 [Execution]
+Program arguments=
+Program uri=../../src/printer_message_editor
 Run in terminal=2
-Working directories=../../../printer-hack
+Working directories=../../../Printer-Message-Editor
 
 [Debugger]
 Stop at beginning=2
+
+[Build]
+Configuration list=1:Default:%%%1:Debug:Debug%%%1:Profiling:Profiling%%%1:Optimized:Optimized
+Selected Configuration=Default
+BuildArgs/Default=--enable-maintainer-mode
+BuildArgs/Debug=--enable-maintainer-mode 'CFLAGS=-g -O0' 'CXXFLAGS=-g -O0' 'JFLAGS=-g -O0' 'FFLAGS=-g -O0'
+BuildArgs/Profiling=--enable-maintainer-mode 'CFLAGS=-g -pg' 'CXXFLAGS=-g -pg' 'JFLAGS=-g -pg' 'FFLAGS=-g -pg'
+BuildArgs/Optimized=--enable-maintainer-mode 'CFLAGS=-O2' 'CXXFLAGS=-O2' 'JFLAGS=-O2' 'FFLAGS=-O2'

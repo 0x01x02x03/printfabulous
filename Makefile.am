@@ -3,8 +3,8 @@
 
 SUBDIRS = src po
 
-printer_hackdocdir = ${prefix}/doc/printer_hack
-printer_hackdoc_DATA = \
+printer_message_editordocdir = ${prefix}/doc/printer_message_editor
+printer_message_editordoc_DATA = \
 	README\
 	COPYING\
 	AUTHORS\
@@ -17,7 +17,7 @@ INTLTOOL_FILES = intltool-extract.in \
 	intltool-merge.in \
 	intltool-update.in
 
-EXTRA_DIST = $(printer_hackdoc_DATA) \
+EXTRA_DIST = $(printer_message_editordoc_DATA) \
 	$(INTLTOOL_FILES)
 
 DISTCLEANFILES = intltool-extract \
@@ -28,4 +28,4 @@ DISTCLEANFILES = intltool-extract \
 
 # Remove doc directory on uninstall
 uninstall-local:
-	-rm -r $(printer_hackdocdir)
+	-rm -r $(printer_message_editordocdir)

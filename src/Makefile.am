@@ -11,12 +11,12 @@ AM_CFLAGS =\
 	 -Wall\
 	 -g
 
-bin_PROGRAMS = printer_hack
+bin_PROGRAMS = printer_message_editor
 
-printer_hack_SOURCES = \
-	main.c
+printer_message_editor_SOURCES = \
+	main.cc
 
-printer_hack_LDFLAGS = 
+printer_message_editor_LDFLAGS = 
 
-printer_hack_LDADD = 
+printer_message_editor_LDADD = 
 

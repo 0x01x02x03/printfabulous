@@ -5,7 +5,7 @@
 #define ENABLE_NLS 1
 
 /* GETTEXT package name */
-#define GETTEXT_PACKAGE "printer_hack"
+#define GETTEXT_PACKAGE "printer_message_editor"
 
 /* Define to 1 if you have the `bind_textdomain_codeset' function. */
 #define HAVE_BIND_TEXTDOMAIN_CODESET 1
@@ -57,19 +57,19 @@
 #define LT_OBJDIR ".libs/"
 
 /* Name of package */
-#define PACKAGE "printer_hack"
+#define PACKAGE "printer_message_editor"
 
 /* Define to the address where bug reports for this package should be sent. */
 #define PACKAGE_BUGREPORT ""
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "printer_hack"
+#define PACKAGE_NAME "printer_message_editor"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "printer_hack 0.1"
+#define PACKAGE_STRING "printer_message_editor 0.1"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "printer_hack"
+#define PACKAGE_TARNAME "printer_message_editor"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""
