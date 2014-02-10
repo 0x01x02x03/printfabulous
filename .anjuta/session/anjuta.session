@@ -1,21 +1,21 @@
 [Anjuta]
-Geometry=1918x1014+0+27
+Maximized=1
+Geometry=1920x1015+0+27
 
 [File Loader]
-Files=../../src/main.cc#53
+Files=../../src/main.cc#68
 
 [Document Manager]
 bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
 
-[Project Manager]
-Shortcut=Printer-Message-Editor//src//printer_message_editor
-Expand=printer_message_editor
-
 [Execution]
-Program arguments=
 Program uri=../../src/printer_message_editor
 Run in terminal=2
 Working directories=../../../Printer-Message-Editor
+
+[Project Manager]
+Shortcut=Printer-Display-Message-Editor//src//printer_message_editor
+Expand=Printer-Display-Message-Editor
 
 [Debugger]
 Stop at beginning=2
