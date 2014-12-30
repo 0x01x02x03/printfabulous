@@ -1,6 +1,6 @@
 [Anjuta]
 Maximized=1
-Geometry=1920x1015+0+27
+Geometry=1920x1014+0+27
 
 [File Loader]
 Files=../../src/main.cc#68
